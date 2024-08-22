@@ -18,7 +18,9 @@ def gerar_readme(diretorio_base, caminho_readme = "README.md"):
     tabela = contar_arquivos(diretorio_base)
 
     with open(caminho_readme, "w") as arquivo:
-        arquivo.write("#Estrutura de Pastas - Problemas\n")
+        arquivo.write("# Reunião de exercícios e materiais teóricos de exercícios do BeeCrowd\n")
+        arquivo.write("Apenas um lugar para reunir os exercícios que eu for fazendo :)\n")
+        arquivo.write("# Quantos exercícios foram documentados de cada categoria?\n")
         arquivo.write(tabela)
 
 if __name__ == "__main__":
