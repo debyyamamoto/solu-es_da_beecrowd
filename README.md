@@ -5,3 +5,4 @@ Apenas um lugar para reunir os exercícios que eu for fazendo :)
 |---------| --------------------|
 | est_e_bibliotecas | 1 |
 | ad_hoc | 1 |
+| iniciantes | 12 |
